@@ -35,7 +35,6 @@ export class NuevoCorreoComponent implements OnInit {
     correo.leido = false;
     correo.emisor= 'correoEmisor1@openWebinar.inv';
 
-
     alert("Correo Enviado \nEliminamos el formulario");
     this.onReset();
 
